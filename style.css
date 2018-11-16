@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #012634;
+}
+
+h1 {
+  text-align: center;
+  color: grey;
+}
+
+h2 {
+  color: grey;
+  padding-top: 40px;
+}
+
+.bilde {
+  border-radius: 50%;
+  border: grey solid 4px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 40px;
+}
+
+.rad {
+  display: flex;
+}
+
+.kolonne {
+  width: 465px;
+  background: #b6b6b6;
+  border-radius: 6px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.kolonne2 {
+  margin-left: 30px;
+}
+
+.prosjekt {
+  width: 100%;
+  display: flex;
+  background: #b6b6b6;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.prosjekt-tittel {
+  font-weight: bold;
+}
+
+.prosjekt-kol1 {
+  width: 25%;
+  float: left;
+  margin-left: 40px;
+}
+
+.prosjekt-kol2 {
+  float: right;
+}
